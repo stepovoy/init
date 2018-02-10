@@ -1,0 +1,18 @@
+$ dig -x 10.51.1.81
+
+; <<>> DiG 9.8.3-P1 <<>> -x 10.51.1.81
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40515
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;81.1.51.10.in-addr.arpa.	IN	PTR
+
+;; AUTHORITY SECTION:
+1.51.10.in-addr.arpa.	30	IN	SOA	ns1.unit.ua. admin.unit.ua. 2018020500 86400 3600 604800 7200
+
+;; Query time: 1 msec
+;; SERVER: 10.51.1.253#53(10.51.1.253)
+;; WHEN: Sat Feb 10 18:59:01 2018
+;; MSG SIZE  rcvd: 94
