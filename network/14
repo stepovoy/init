@@ -16,3 +16,7 @@ $ dig -x 10.51.1.81
 ;; SERVER: 10.51.1.253#53(10.51.1.253)
 ;; WHEN: Sat Feb 10 18:59:01 2018
 ;; MSG SIZE  rcvd: 94
+
+$ dig +short -x 10.51.1.81
+
+returns nothing, unfortunately:(
